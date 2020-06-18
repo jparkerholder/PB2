@@ -1,5 +1,5 @@
 # PB2
-Code for the Population-Based Bandits Algorithm
+Code for the Population-Based Bandits (PB2) Algorithm, from the paper *Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits*.
 
 The framework is based on a union of [ray](https://github.com/ray-project/ray) (using rllib and tune) and [GPy](https://github.com/SheffieldML/GPy)
 
@@ -8,7 +8,7 @@ This is currently a work in progress. The code will be regularly updated during 
 To run the IMPALA experiment, use command:
 
 ``
- python run_impala.py . 
+ python run_impala.py 
 ``
 
 Within that function, there are multiple ways to mix it up. You can choose the following:
