@@ -1,4 +1,4 @@
-# Population-Based Bandits (PB2)
+## Population-Based Bandits (PB2)
 
 
 Code for the Population-Based Bandits (PB2) Algorithm, from the paper *Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits*.
@@ -6,6 +6,8 @@ Code for the Population-Based Bandits (PB2) Algorithm, from the paper *Provably 
 The framework is based on a union of [ray](https://github.com/ray-project/ray) (using rllib and tune) and [GPy](https://github.com/SheffieldML/GPy). Heavily inspired by the ray tune pbt_ppo example. 
 
 This is currently a work in progress. The code will be regularly updated during June/July 2020.
+
+#### Running the Code
 
 To run the IMPALA experiment, use command:
 
@@ -19,6 +21,7 @@ To run the PPO experiment, use command:
  python run_ppo.py 
 ``
 
+#### Config
 
 Within that function, there are multiple ways to mix it up. You can choose the following:
 
@@ -32,4 +35,15 @@ It should also be possible to adapt this code to run other ray tune schedulers. 
 
 Please get in touch for all questions.
 jackph [at] robots [dot] ox [dot] ac [dot] uk
+
+#### Citing PB2
+
+Finally, if you found this repo useful, please consider citing us:
+
+@article{pb2_automl,
+    title={Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits},
+    author={Parker-Holder, Jack and Nguyen, Vu and Roberts, Stephen},
+    journal={7th ICML Workshop on Automated Machine Learning},
+    year={2020}
+}
 
