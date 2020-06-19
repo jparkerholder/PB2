@@ -40,10 +40,10 @@ jackph [at] robots [dot] ox [dot] ac [dot] uk
 
 Finally, if you found this repo useful, please consider citing us:
 
-@article{pb2_automl,
-    title={Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits},
-    author={Parker-Holder, Jack and Nguyen, Vu and Roberts, Stephen},
-    journal={7th ICML Workshop on Automated Machine Learning},
-    year={2020}
+@article{pb2_automl,  \
+    title={Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits},  \
+    author={Parker-Holder, Jack and Nguyen, Vu and Roberts, Stephen},  \
+    journal={7th ICML Workshop on Automated Machine Learning},  \
+    year={2020}   \
 }
 
