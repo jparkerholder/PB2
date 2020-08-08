@@ -141,7 +141,7 @@ if __name__ == "__main__":
     results = pd.DataFrame()    
     for i in range(args.num_samples):
         df = all_dfs[names[i]]
-        df = df[['timesteps_total', 'episodes_total', 'episode_reward_mean', 'info/learner/default_policy/cur_kl_coeff']]
+        df = df[['timesteps_total', 'time_total_s','episodes_total', 'episode_reward_mean', 'info/learner/default_policy/cur_kl_coeff']]
         df['Agent'] = i
         results = pd.concat([results, df]).reset_index(drop=True)
     
