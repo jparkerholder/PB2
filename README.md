@@ -5,7 +5,7 @@ Code for the Population-Based Bandits (PB2) Algorithm, from the paper *Provably 
 
 The framework is based on a union of [ray](https://github.com/ray-project/ray) (using rllib and tune) and [GPy](https://github.com/SheffieldML/GPy). Heavily inspired by the ray tune pbt_ppo example. 
 
-This is currently a work in progress. The code will be regularly updated during June/July 2020.
+This is currently a work in progress. The plan is to hopefully build a much better version, which is more general. For now, if this doesn't do what you need, please get in touch, my email is below :)
 
 #### Running the Code
 
@@ -40,10 +40,11 @@ jackph [at] robots [dot] ox [dot] ac [dot] uk
 
 Finally, if you found this repo useful, please consider citing us:
 
-@article{pb2_automl,  \
-    title={Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits},  \
-    author={Parker-Holder, Jack and Nguyen, Vu and Roberts, Stephen},  \
-    journal={7th ICML Workshop on Automated Machine Learning},  \
-    year={2020}   \
+```
+@article{pb2_neurips,  
+    title={Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits},  
+    author={Parker-Holder, Jack and Nguyen, Vu and Roberts, Stephen},  
+    journal={Advances in Neural Information Processing Systems},  
+    year={2020}   
 }
-
+```
