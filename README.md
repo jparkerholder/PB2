@@ -5,7 +5,8 @@ Code for the Population-Based Bandits (PB2) Algorithm, from the paper *Provably 
 
 The framework is based on a union of [ray](https://github.com/ray-project/ray) (using rllib and tune) and [GPy](https://github.com/SheffieldML/GPy). Heavily inspired by the ray tune pbt_ppo example. 
 
-This is currently a work in progress. The plan is to hopefully build a much better version, which is more general. For now, if this doesn't do what you need, please get in touch, my email is below :)
+*NOTE* We are working to include PB2 into the ``ray.tune`` library, which will become the official supported implementation. This repo is a semi-buggy version to share with the community while we work on that. It is expected to be released in ray v1.0.1.
+
 
 #### Running the Code
 
