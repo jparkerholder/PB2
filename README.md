@@ -5,7 +5,7 @@ Code for the Population-Based Bandits (PB2) Algorithm, from the paper *Provably 
 
 The framework is based on a union of [ray](https://github.com/ray-project/ray) (using rllib and tune) and [GPy](https://github.com/SheffieldML/GPy). Heavily inspired by the ray tune pbt_ppo example. 
 
-*NOTE* We are working to include PB2 into the ``ray.tune`` library, which will become the official supported implementation. This repo is a semi-buggy version to share with the community while we work on that. It is expected to be released in ray v1.0.1.
+*NOTE* PB2 is included in the ``ray.tune`` library, which is the official supported implementation. The link to the code is [here](https://docs.ray.io/en/master/_modules/ray/tune/schedulers/pb2.html), and the accompanying blog post is [here](https://www.anyscale.com/blog/population-based-bandits).
 
 
 #### Running the Code
@@ -42,10 +42,15 @@ jackph [at] robots [dot] ox [dot] ac [dot] uk
 Finally, if you found this repo useful, please consider citing us:
 
 ```
-@article{pb2_neurips,  
-    title={Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits},  
-    author={Parker-Holder, Jack and Nguyen, Vu and Roberts, Stephen},  
-    journal={Advances in Neural Information Processing Systems},  
-    year={2020}   
+@inproceedings{NEURIPS2020_c7af0926,
+ author = {Parker-Holder, Jack and Nguyen, Vu and Roberts, Stephen J},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {17200--17211},
+ publisher = {Curran Associates, Inc.},
+ title = {Provably Efficient Online Hyperparameter Optimization with Population-Based Bandits},
+ url = {https://proceedings.neurips.cc/paper/2020/file/c7af0926b294e47e52e46cfebe173f20-Paper.pdf},
+ volume = {33},
+ year = {2020}
 }
 ```
